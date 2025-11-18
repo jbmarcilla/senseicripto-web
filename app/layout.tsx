@@ -15,6 +15,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SenseiCripto - Secretos para Invertir en Criptomonedas",
   description: "Descubre las estrategias y secretos que necesitas para invertir exitosamente en criptomonedas. Aprende de los expertos y toma decisiones informadas.",
+  openGraph: {
+    title: "SenseiCripto - Secretos para Invertir en Criptomonedas",
+    description: "Descubre las estrategias y secretos que necesitas para invertir exitosamente en criptomonedas. Aprende de los expertos y toma decisiones informadas.",
+    type: "website",
+    locale: "es_ES",
+    siteName: "SenseiCripto",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({

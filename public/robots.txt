@@ -1,0 +1,32 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Allow Facebook External Hit
+User-agent: facebookexternalhit
+Allow: /
+
+# Allow Facebook Bot
+User-agent: Facebot
+Allow: /
+
+# Allow WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Allow Twitter
+User-agent: Twitterbot
+Allow: /
+
+# Allow other social media bots
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Sitemap
+Sitemap: https://senseicripto-web.vercel.app/sitemap.xml
